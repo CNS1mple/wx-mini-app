@@ -94,10 +94,10 @@
   margin-top: -227rpx;
   position: absolute;
   margin-left: 20rpx;
-  margin-right: auto;
+  /* margin-right: auto; */
   width: 710rpx;
   height: 270rpx;
-  border-radius:18px;
+  border-radius:12rpx;
   border:2rpx dotted white;
 }
 
