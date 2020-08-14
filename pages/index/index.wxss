@@ -1,0 +1,106 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.mask {
+  
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: #141414;
+  z-index: 9;
+  
+  opacity:0.5;
+
+}
+
+.card1 {
+  /* margin-left: 30rpx;
+  margin-right: auto; */
+  width: 690rpx;
+  height: 250rpx;
+  /* margin-top: 30rpx; */
+  opacity:10;
+  position: absolute;
+  top:30rpx;
+  left:30rpx;
+  border-radius:12rpx;
+  z-index: 10;
+  
+}
+.fingerup {
+  margin-left: 18rpx;
+  width: 62rpx;
+  height: 82rpx;
+  margin-top: 40rpx;
+  /* margin-right: auto; */
+  opacity: 1;
+}
+
+.tip-word{
+  position: absolute;
+  font-size: 30rpx;
+  color: white;
+  top:280rpx;
+  left:30rpx;
+  z-index: 10;
+
+
+}
+
+
+
+ .tip-button{
+   line-height: 30rpx;
+  margin-top: 180rpx;
+  font-size: 30rpx;
+  background-color: transparent;
+  /* opacity: 0.5; */
+  color: #FFFFFF;
+  font-family:PingFang SC;
+  font-weight:500;
+  border:1rpx solid white;
+  border-radius:33rpx;
+  z-index: 9999;
+  top:300rpx
+
+
+}
+
+.border1{
+  margin-top: -227rpx;
+  position: absolute;
+  margin-left: 20rpx;
+  margin-right: auto;
+  width: 710rpx;
+  height: 270rpx;
+  border-radius:18px;
+  border:2rpx dotted white;
+}
+
+.page{
+  height: 100%;
+} 

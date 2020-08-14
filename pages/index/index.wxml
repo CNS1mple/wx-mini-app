@@ -1,0 +1,25 @@
+
+<image class="card1" src="../images/card1.png" hidden="{{maskFlag}}"></image>
+<view class = "mask" hidden = "{{maskFlag}}">
+  
+  <view class = "tip-word"><image class="fingerup" src="../images/fingerup.png"></image>
+  长按或者左滑可删除“未提交”的贷款申请</view>
+  <button style="width:220rpx; height:66rpx" class = "tip-button" bindtap="hideMask">我知道了</button>
+  <view class="border1"> </view>
+</view>
+
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <text>当前时间:{{time}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view>{{name}}</view>
+</view>
